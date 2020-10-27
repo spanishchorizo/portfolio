@@ -17,18 +17,36 @@
       }
 
       #banner {
-        border-radius: 3rem;
-        border: 3px solid black;
         display: block;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
       }
 
-      li {
+      #nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: black;
         display: block;
-        float: left;
+        color: white;
+        text-align: inline;
+        padding: 8px 8px;
+        text-decoration: none;
       }
 
+      li a:hover {
+        background-color: darkcyan;
+      }
+
+      .active {
+        background-color: darkcyan;
+      }
+
+      .lessons {
+
+      }
 
     </style>
 
@@ -41,7 +59,8 @@
     <img id="banner" src="https://storage.needpix.com/rsynced_images/html-1695519_1280.png" alt="It's a html header image" width=900 height=400 />
 
     <nav>
-      <ul>
+      <ul id="nav">
+        <li><h2><a class="active" href="./index.html">Home</a></h2></li>
         <li><h2><a href="#projects-and-assignments">Projects and Assignments</a></h2></li>
         <li><h2><a href="./about-me.html">About Me</a></h2></li>
       </ul>
@@ -60,7 +79,7 @@
         <article>
           <ol>
             <li>
-              <h3>Lesson 01: <a href=".././semantic-elements/index.html" target="_blank">HTML5 Semantic Elements</a></h3>
+              <h3 class="lessons">Lesson 01: <a href=".././semantic-elements/index.html" target="_blank">HTML5 Semantic Elements</a></h3>
 
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/HTMLtags.png" alt="it's a simple structure of basic elements that should be included in a HTML document" height=200 />
 
@@ -68,7 +87,7 @@
             </li>
 
             <li>
-              <h3>Lesson 02: <a href="./index.html">Portfolio</a></h3>
+              <h3 class="lessons">Lesson 02: <a href="./index.html">Portfolio</a></h3>
 
               <img src="images/githubprofile.jpeg" alt="Screenshot of the GitHub profile of Grace Bugay" width=600 />
 
