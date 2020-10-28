@@ -1,41 +1,68 @@
 /* Stylesheet used for Portfolio assignment */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+  * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: linen;
+    background-color: #242524;
+  }
+
+  header {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   h1 {
+    padding: 80px;
     text-align: center;
-    text-shadow: 3px 3px gray;
+    text-shadow: 3px 3px darkgoldenrod;
     font-size: 5rem;
     font-weight: bolder;
     font-variant: all-small-caps;
+    border-style: double;
+    border-radius: 1rem;
+    border-width: 10px;
+    border-color: linen;
   }
 
-  #banner {
-    display: block;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    list-style: none;
   }
 
-  #nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    display: block;
-    color: white;
-    text-align: inline;
-    padding: 8px 8px;
+  .nav-links li {
+    display: inline-block;
+  }
+
+  .nav-links li a {
+    transition: all 0.5s ease 0s;
+  }
+
+  button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: linen;
     text-decoration: none;
+    cursor: pointer;
+    padding: 10px 25px;
+    background-color: indigo;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.25s ease 0s;
   }
 
-  li a:hover {
-    background-color: darkcyan;
+  button:hover {
+    background-color: goldenrod;
   }
-
-  .active {
-    background-color: darkcyan;
-  }
-
   .lessons {
 
   }

@@ -5,50 +5,7 @@
     <meta charset="utf-8">
     <title>HTML 110 Portfolio Site</title>
 
-    <style>
-    /* Stylesheet used for Portfolio assignment */
-
-      h1 {
-        text-align: center;
-        text-shadow: 3px 3px gray;
-        font-size: 5rem;
-        font-weight: bolder;
-        font-variant: all-small-caps;
-      }
-
-      #banner {
-        display: block;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-      }
-
-      #nav {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: black;
-        display: block;
-        color: white;
-        text-align: inline;
-        padding: 8px 8px;
-        text-decoration: none;
-      }
-
-      li a:hover {
-        background-color: darkcyan;
-      }
-
-      .active {
-        background-color: darkcyan;
-      }
-
-      .lessons {
-
-      }
-
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
 
   </head>
 
@@ -56,13 +13,11 @@
     <header>
       <h1>HTML 110 Portfolio</h1>
 
-    <img id="banner" src="https://storage.needpix.com/rsynced_images/html-1695519_1280.png" alt="It's a html header image" width=900 height=400 />
-
     <nav>
-      <ul id="nav">
-        <li><h2><a class="active" href="./index.html">Home</a></h2></li>
-        <li><h2><a href="#projects-and-assignments">Projects and Assignments</a></h2></li>
-        <li><h2><a href="./about-me.html">About Me</a></h2></li>
+      <ul class="nav-links">
+        <li><h2><a href="./index.html"><button>Home</button></a></h2></li>
+        <li><h2><a href="#projects-and-assignments"><button>Projects and Assignments</button></a></h2></li>
+        <li><h2><a href="./about-me.html"><button>About Me</button></a></h2></li>
       </ul>
 
     </nav>
@@ -77,9 +32,9 @@
         <h2>Projects and Assignments</h2>
 
         <article>
-          <ol>
+          <ol class="lessons">
             <li>
-              <h3 class="lessons">Lesson 01: <a href=".././semantic-elements/index.html" target="_blank">HTML5 Semantic Elements</a></h3>
+              <h3>Lesson 01: <a href=".././semantic-elements/index.html" target="_blank">HTML5 Semantic Elements</a></h3>
 
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/HTMLtags.png" alt="it's a simple structure of basic elements that should be included in a HTML document" height=200 />
 
@@ -87,7 +42,7 @@
             </li>
 
             <li>
-              <h3 class="lessons">Lesson 02: <a href="./index.html">Portfolio</a></h3>
+              <h3>Lesson 02: <a href="./index.html">Portfolio</a></h3>
 
               <img src="images/githubprofile.jpeg" alt="Screenshot of the GitHub profile of Grace Bugay" width=600 />
 
