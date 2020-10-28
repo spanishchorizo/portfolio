@@ -64,21 +64,20 @@
     background-color: goldenrod;
   }
 
-  h2 {
-    padding: 0px 50px;
-  }
   .lessons {
     list-style: none;
     padding: 10px 50px;
   }
 
   .lessons li {
-    padding: 50px 25px;
+    padding: 70px;
     margin: 10px 0px;
+    font-size: 16px;
   }
 
   .lessons li a {
     color: goldenrod;
+    padding: 50px 0px 0px;
   }
 
   .lessons li a:hover {
@@ -94,18 +93,73 @@
   .lessons li p {
     margin: auto;
     padding: 35px;
-    text-align: justify;
+    text-align: left;
   }
 
-  .code-alongs a, h3, p {
-    padding: 10px 50px;
+  .code-alongs a, p {
+    padding: 0px 50px 50px;
     text-align: justify;
+    font-size: 16px;
   }
 
   .code-alongs h3 {
     color: goldenrod;
+    padding: 50px 0px 0px;
+    font-size: 18px;
   }
 
   .code-alongs h3:hover {
     color: orchid;
+  }
+
+/* End of styling for index.html. Start of styling for about-me.html */
+
+  .portrait {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+    border-radius: 5rem;
+  }
+
+  h2, h3, h4 {
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .favorites {
+    margin-left: 50px;
+    padding: 20px;
+  }
+
+  .favorites li {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .favorites li a {
+    color: goldenrod;
+  }
+
+  .favorites li a:hover {
+    color: orchid;
+  }
+
+  aside {
+    border: 5px dotted;
+    border-color: gray;
+    margin-bottom: 50px;
+  }
+
+  aside a {
+    color: goldenrod;
+  }
+
+  aside a:hover {
+    color: orchid;
+  }
+
+  address {
+    text-align: center;
+    margin-bottom: 25px;
   }
