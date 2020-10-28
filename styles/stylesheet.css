@@ -63,6 +63,49 @@
   button:hover {
     background-color: goldenrod;
   }
-  .lessons {
 
+  h2 {
+    padding: 0px 50px;
+  }
+  .lessons {
+    list-style: none;
+    padding: 10px 50px;
+  }
+
+  .lessons li {
+    padding: 50px 25px;
+    margin: 10px 0px;
+  }
+
+  .lessons li a {
+    color: goldenrod;
+  }
+
+  .lessons li a:hover {
+    color: orchid;
+    cursor: pointer;
+  }
+
+  .lessons img {
+    float: left;
+    padding: 25px 50px;
+  }
+
+  .lessons li p {
+    margin: auto;
+    padding: 35px;
+    text-align: justify;
+  }
+
+  .code-alongs a, h3, p {
+    padding: 10px 50px;
+    text-align: justify;
+  }
+
+  .code-alongs h3 {
+    color: goldenrod;
+  }
+
+  .code-alongs h3:hover {
+    color: orchid;
   }
