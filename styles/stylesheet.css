@@ -31,7 +31,7 @@
     display: flex;
     justify-content: flex-start;
     list-style: none;
-    background-color: #dedede;
+    background-color: #0c0c0c;
   }
 
   .nav-links li {
@@ -40,6 +40,7 @@
   }
 
   .nav-links li a {
+    color: linen;
     transition: all 0.5s ease 0s;
     text-decoration: none;
     font-size: 16px;
@@ -47,7 +48,7 @@
   }
 
   .nav-links li a:hover {
-    color: purple;
+    color: orchid;
   }
 
   /* button {
@@ -104,7 +105,7 @@
   }
 
   .lessons li a:hover {
-    color: purple;
+    color: orchid;
     cursor: pointer;
   }
 
@@ -117,7 +118,7 @@
     justify-content: flex-start;
   }
 
-  img.1 {
+  /* img.1 {
    overflow: hidden;
    margin-left: -50px;
   }
@@ -125,7 +126,7 @@
   img.2 {
    overflow: hidden;
    margin-left: -50px;
-  }
+  } */
 
   .lessons li p {
     margin: auto;
@@ -140,28 +141,45 @@
     height: auto;
   }
 
-  .content-right h3 {
+  .content-right a {
     color: goldenrod;
-    padding: 50px 0px 0px;
     font-size: 18px;
     text-decoration: none;
   }
 
-  .code-alongs a, p {
+  .content-right p {
     padding: 0px 50px 50px;
     text-align: left;
     font-size: 16px;
   }
 
-  .code-alongs h3:hover {
-    color: purple;
+  .code-alongs a:hover {
+    color: orchid;
   }
 
   footer {
-    width: 100%;
+    width: auto;
     height: auto;
+    position: relative;
+    display: block;
+    padding: 5rem;
+    text-align: center;
+    background: #0c0c0c;
+    border: 1rem double linen;
   }
 
+  footer p, a {
+    color: linen;
+  }
+
+  footer a {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
+  footer a:hover {
+    color: orchid;
+  }
 /* End of styling for index.html. Start of styling for about-me.html */
 
   .portrait {
