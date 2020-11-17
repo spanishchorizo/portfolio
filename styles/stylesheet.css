@@ -9,7 +9,7 @@
   header {
     width: 100%;
     height: auto;
-    background-image: url(https://snappygoat.com/o/4a738e4276c59c3fe1eef4cbcda8d1ad3b338e1d/Gradient-dark-background.jpg);
+    background-image: url(https://p0.pxfuel.com/preview/665/79/769/abstract-nature-abstract-black.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -24,8 +24,8 @@
   nav {
     width: 100%;
     height: auto;
-    background-color: #844D36;
-    padding: 1.5rem 0rem;
+    background-color: black;
+    padding: 1rem 0rem;
     position: relative;
   }
 
@@ -44,7 +44,7 @@
   }
 
   .nav-links li a:hover {
-    color: #EDEAE5;
+    color: #FCE181;
   }
 
   body {
@@ -79,12 +79,18 @@
   }
 
   .lessons h3 {
-    color: #EDEAE5;
+    color: #AAA0A0;
   }
 
   .lessons li {
     font-size: 16px;
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 1rem;
+    transition: all 500ms ease-in-out;
+  }
+
+  .lessons li:hover {
+    border: 1px solid #EDEAE5;
+    border-radius: 2rem;
   }
 
   .lessons p {
@@ -95,11 +101,13 @@
     color: #12C998;
     padding: 50px 0px 0px;
     text-decoration: none;
+    transition: font-size 1s;
   }
 
   .lessons li a:hover {
     color: #EDEAE5;
     cursor: pointer;
+    font-size: 22px;
   }
 
   .lessons img {
@@ -208,6 +216,13 @@
 
   .greeting p {
     padding: 2rem;
+    transition: all 1s ease-in-out;
+  }
+
+  .greeting p:hover {
+    background-color: black;
+    border: 1px solid #AAA0A0;
+    border-radius: 2rem;
   }
 
   .favorites, aside {
@@ -248,9 +263,15 @@
     position: relative;
     right: -4rem;
     border: 5px dotted;
-    border-color: gray;
+    border-color: #EDEAE5;
     padding: 1rem;
     margin: -3.5rem 5.5rem 0rem 0rem;
+    transition: all 1000ms;
+  }
+
+  aside:hover {
+    border: 10px dotted #12C998;
+    border-radius: 45%;
   }
 
   aside p {
