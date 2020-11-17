@@ -2,7 +2,7 @@
 
   * {
     font-family: "Montserrat", sans-serif;
-    color: #262626;
+    color: #AAA0A0;
     margin: 0;
   }
 
@@ -17,14 +17,14 @@
   h1 {
     padding: 5rem;
     font-size: 5rem;
-    color: linen;
+    color: #EDEAE5;
     text-align: center;
   }
 
   nav {
     width: 100%;
     height: auto;
-    background-color: #262626;
+    background-color: #844D36;
     padding: 1.5rem 0rem;
     position: relative;
   }
@@ -35,7 +35,7 @@
   }
 
   .nav-links li a {
-    color: linen;
+    color: #EDEAE5;
     transition: all 0.5s ease 0s;
     text-decoration: none;
     font-size: 16px;
@@ -44,14 +44,14 @@
   }
 
   .nav-links li a:hover {
-    color: orchid;
+    color: #EDEAE5;
   }
 
   body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: linen;
+    background-color: #222629;
   }
 
   .content-left {
@@ -65,7 +65,7 @@
   .content-left h2 {
     text-decoration: underline;
     padding: 1rem;
-    color: #262626;
+    color: #EDEAE5;
   }
 
   div {
@@ -78,6 +78,10 @@
     padding: 0rem 0rem 2rem 1rem;
   }
 
+  .lessons h3 {
+    color: #EDEAE5;
+  }
+
   .lessons li {
     font-size: 16px;
     padding: 0rem 0rem 1rem 0rem;
@@ -88,13 +92,13 @@
   }
 
   .lessons li a {
-    color: goldenrod;
+    color: #12C998;
     padding: 50px 0px 0px;
     text-decoration: none;
   }
 
   .lessons li a:hover {
-    color: orchid;
+    color: #EDEAE5;
     cursor: pointer;
   }
 
@@ -127,7 +131,7 @@
   }
 
   .content-right a {
-    color: goldenrod;
+    color: #FCE181;
     font-size: 18px;
     text-decoration: none;
 
@@ -149,7 +153,7 @@
   }
 
   .code-alongs a:hover {
-    color: orchid;
+    color: #EDEAE5;
   }
 
   footer {
@@ -159,18 +163,18 @@
     display: block;
     padding: 1rem 1rem 5rem;
     text-align: center;
-    background: #262626;
-    border: 1rem double linen;
+    background: #222629;
+    border: 1rem double #AAA0A0;
   }
 
   footer p {
-    color: linen;
+    color: #AAA0A0;
     position: relative;
     top: 4rem;
   }
 
   footer a {
-    color: linen;
+    color: #AAA0A0;
     text-decoration: none;
     font-weight: bolder;
     position: relative;
@@ -178,11 +182,11 @@
   }
 
   footer a:hover {
-    color: orchid;
+    color: #EDEAE5;
   }
 
   .copyright {
-    color: grey;
+    color: #AAA0A0;
     font-size: 12px;
   }
 
@@ -194,6 +198,7 @@
 
   .about-me h2, h3 {
     padding: 1rem 0rem;
+    color: #EDEAE5;
   }
 
   .greeting {
@@ -228,13 +233,13 @@
   }
 
   .favorites li a {
-    color: goldenrod;
+    color: #12C998;
     text-decoration: none;
     font-weight: bold;
   }
 
   .favorites li a:hover {
-    color: orchid;
+    color: #EDEAE5;
   }
 
   aside {
@@ -254,13 +259,13 @@
   }
 
   aside a {
-    color: purple;
+    color: #FCE181;
     text-decoration: none;
     font-weight: bolder;
   }
 
   aside a:hover {
-    color: orchid;
+    color: #EDEAE5;
   }
 
   address {
