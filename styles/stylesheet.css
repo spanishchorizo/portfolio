@@ -36,11 +36,11 @@
 
   .nav-links li a {
     color: #EDEAE5;
-    transition: all 0.5s ease 0s;
     text-decoration: none;
     font-size: 16px;
     font-weight: bold;
     padding: 0rem 2rem;
+    transition: all 0.5s ease 0s;
   }
 
   .nav-links li a:hover {
