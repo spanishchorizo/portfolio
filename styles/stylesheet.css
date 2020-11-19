@@ -20,12 +20,8 @@
     color: #EDEAE5;
     opacity: 80%;
     text-align: center;
-    transition: all 1s;
-  }
-
-   h1:hover {
-    transform: scale(1.5);
     letter-spacing: .5rem;
+    transition: all 1s;
   }
 
   nav {
