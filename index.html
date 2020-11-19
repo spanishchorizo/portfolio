@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>HTML 110 Portfolio Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi There, Grace Here!</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/1eb582cdcb.js" crossorigin="anonymous"></script>
 
@@ -14,13 +18,29 @@
   </head>
 
   <body>
+    <div class="icon-bar">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+    </div>
+
     <header>
-      <h1>HTML 110 Portfolio</h1>
+      <h1>HELLO WORLD!</h1>
+
     <nav>
+
       <ul class="nav-links">
-        <li><h2><a href="./index.html"><i class="fas fa-home" style="color: linen"></i> Home</a></h2></li>
-        <li><h2><a href="#projects-and-assignments"><i class="fas fa-list-ul" style="color: linen"></i> Projects and Assignments</a></h2></li>
-        <li><h2><a href="./about-me.html"><i class="fas fa-user-circle" style="color: linen"></i> About Me</a></h2></li>
+        <li>
+          <h2><a href="./index.html"><i class="fas fa-home" style="color: linen"></i> Home</a></h2>
+        </li>
+        <li>
+          <h2><a href="#projects-and-assignments"><i class="fas fa-list-ul" style="color: linen"></i> Projects and Assignments</a></h2>
+        </li>
+        <li>
+          <h2><a href="./about-me.html"><i class="fas fa-user-circle" style="color: linen"></i> About Me</a></h2>
+        </li>
+
       </ul>
     </nav>
 
@@ -38,27 +58,27 @@
             <li>
               <h3>Lesson 01: <a href=".././semantic-elements/index.html" target="_blank">HTML5 Semantic Elements</a></h3>
 
-              <div>
+              <div class="assignments">
                 <img class="img1" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/HTMLtags.png" alt="it's a simple structure of basic elements that should be included in a HTML document"/>
 
-                <p>This is the week 01 assignment. We had to summarize what HTML5 semantic elements are and their purpose. Then, we had to code a html document using 15 semantic elements correctly from the week's readings.</p>
+                <p>Summarize what HTML5 semantic elements are and their purpose. Then, code a html document using 15 semantic elements correctly from the week's readings.</p>
               </div>
             </li>
 
             <li>
               <h3>Lesson 02: <a href="./index.html">Portfolio</a></h3>
 
-              <div>
+              <div class="assignments">
                 <img class="img2" src="images/githubprofile.png" alt="Screenshot of the GitHub profile of Grace Bugay"/>
 
-                <p>This week's assignment is to create a two-page portfolio site. Our previous work from week 01 is listed and linked. Included with each lesson's assignment is a small image related to the assignment, as well as a short blurb about what it is about.</p>
+                <p>Create a two-page portfolio site. Include links to each lesson's assignment, a small image related to it, and a short blurb about what it is about.</p>
               </div>
             </li>
 
             <li>
               <h3>Lesson 03: <a href="./index.html">Adding CSS</a></h3>
 
-              <div>
+              <div class="assignments">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/CSS_text_representation_%28square%29.png" alt="CSS logo"/>
 
                 <p>First Milestone Assignment. Add CSS to your Portfolio and all its pages.</p>
@@ -68,10 +88,10 @@
             <li>
               <h3>Lesson 04: <a href="https://spanishchorizo.github.io/mock-up/index.html" target="_blank">Kitties To Go! Mock-up</a></h3>
 
-              <div>
+              <div class="assignments">
                 <img src="https://libreshot.com/wp-content/uploads/2018/02/gray-kitten-looking.jpg" alt="Grey kitten looking up"/>
 
-                <p>Create a mock-up of Kitties To Go! dummy website using the provided pdf template and images. First create a semantic html then use CSS to style it as close to the mock-up template.</p>
+                <p>Create a mock-up of Kitties To Go! dummy website using the provided pdf template and images. First create a semantic html document then use CSS to style it as close to the mock-up template.</p>
               </div>
 
             </li>
@@ -97,13 +117,13 @@
     <footer>
       <p><i class="fas fa-angle-double-up" style="color: #FCE181; position: relative; bottom: 4rem"></i><a href="./index.html"> Back to Top </a><i class="fas fa-angle-double-up" style="color: #FCE181; position: relative; bottom: 4rem"></i></p><br>
 
-      <address>
-        <p class="contact">Contact Me</p>
-        <p><i class="far fa-envelope" style="color: #FCE181"></i> Email: <a href="#">gcvb@uw.edu</a></p>
-        <p><i class="fas fa-phone" style="color: #FCE181"></i> Phone: <a href="#">(123) 456-7890</a></p>
-      </address>
+    <address>
+      <p class="contact">Contact Me</p>
+      <p><i class="far fa-envelope" style="color: #FCE181"></i> Email: <a href="#">gcvb@uw.edu</a></p>
+      <p><i class="fas fa-phone" style="color: #FCE181"></i> Phone: <a href="#">(123) 456-7890</a></p>
+    </address>
 
-      <p class="copyright">Copyright 2020 Grace Bugay Portfolio</p>
+      <p class="copyright">Copyright 2020 Grace Bugay</p>
     </footer>
 
   </body>
