@@ -1,7 +1,6 @@
 /* Stylesheet used for Portfolio assignment */
 
   * {
-    /* color: #AAA0A0; */
     margin: 0;
   }
 
@@ -359,4 +358,86 @@
 
   .contact {
     text-decoration: underline;
+  }
+
+  /* Form styling */
+
+  .form {
+    background: linen;
+    margin: 5em 8em;
+    border: 3px solid green;
+    padding: 3em;
+  }
+
+  input[type="submit"] {
+    padding: 1em 2em;
+    background-color: green;
+    border-radius: 1em;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 30%;
+    color: white;
+    outline: none;
+    border: 2px solid white;
+  }
+
+  input[type="submit"]:hover {
+    background: goldenrod;
+    transition: 300ms ease-in-out;
+    cursor: pointer;
+  }
+
+  input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    width: auto;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
+  input[type="text"] {
+    margin-bottom: 1em;
+  }
+
+  input[type="email"] {
+    margin-bottom: 1em;
+  }
+
+  textarea, select {
+    margin-bottom: 1em;
+  }
+
+  select {
+    cursor: pointer;
+  }
+
+  input[type="radio"] {
+    margin-left: 1em;
+  }
+
+  input[type="radio"]:hover {
+    cursor: pointer;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 1em;
+  }
+
+  input[type="checkbox"]:hover {
+    cursor: pointer;
+  }
+
+  .send {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+  }
+
+  .radio label:hover {
+    cursor: pointer;
+  }
+
+  .checkbox label:hover {
+    cursor: pointer;
   }
