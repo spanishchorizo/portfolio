@@ -84,7 +84,7 @@
   }
 
   .content-left {
-    color: #AAA0A0;
+    color: #B9B1B1;
     position: relative;
     float: left;
     width: 60%;
@@ -109,12 +109,13 @@
   }
 
   .lessons h3 {
-    color: #AAA0A0;
+    color: #B9B1B1;
   }
 
   .lessons li {
     font-size: 16px;
     padding: 1rem;
+    border: 1px solid #222629;
     transition: all 500ms ease-in-out;
   }
 
@@ -124,7 +125,7 @@
   }
 
   .lessons p {
-    color: #AAA0A0;
+    color: #B9B1B1;
     line-height: 1.5rem;
   }
 
@@ -165,7 +166,7 @@
     float: right;
     width: 25%;
     height: auto;
-    color: #AAA0A0;
+    color: #B9B1B1;
     border: solid;
     transition: all .5s ease-in-out;
   }
@@ -186,8 +187,12 @@
     text-align: center;
   }
 
+  .content-right h4 {
+    display: none;
+  }
+
   .content-right p {
-    color: #AAA0A0;
+    color: #B9B1B1;
     text-align: left;
     font-size: 16px;
     line-height: 1.5rem;
@@ -213,14 +218,14 @@
   }
 
   footer p {
-    color: #AAA0A0;
+    color: #B9B1B1;
     font-size: 1rem;
     position: relative;
     top: 4rem;
   }
 
   footer a {
-    color: #AAA0A0;
+    color: #B9B1B1;
     text-decoration: none;
     font-weight: bolder;
     position: relative;
@@ -232,7 +237,7 @@
   }
 
   .copyright {
-    color: #AAA0A0;
+    color: #B9B1B1;
     font-size: 12px;
   }
 
@@ -248,7 +253,7 @@
   }
 
   .greeting {
-    color: #AAA0A0;
+    color: #B9B1B1;
     display: block;
     line-height: 3rem;
     margin-bottom: 3rem;
@@ -258,11 +263,12 @@
     font-size: 14px;
     padding: 2rem;
     transition: all 1s ease-in-out;
+    border: 1px solid #222629;
   }
 
   .greeting p:hover {
     background-color: black;
-    border: 1px solid #AAA0A0;
+    border: 1px solid #B9B1B1;
     border-radius: 2rem;
   }
 
@@ -310,7 +316,7 @@
     height: auto;
     position: relative;
     right: 2rem;
-    color: #AAA0A0;
+    color: #B9B1B1;
     border: 5px dotted;
     border-color: #EDEAE5;
     padding: 1rem;
